@@ -1,0 +1,158 @@
+{
+    "Items": [
+        {},
+        {
+            "PricedItinerary": [
+                {
+                    "AirItinerary": {
+                        "OriginDestinationOptions": [
+                            {
+                                "FlightSegment": [
+                                    {
+                                        "BookingClassAvails": [
+                                            {
+                                                "BookingClassAvail": [
+                                                    {
+                                                        "ResBookDesigCode": "R"
+                                                    }
+                                                ],
+                                                "CabinType": "Economy"
+                                            }
+                                        ],
+                                        "E_TicketEligibilitySpecified": false,
+                                        "DepartureDaySpecified": false,
+                                        "StopoverIndSpecified": false,
+                                        "ValidConnectionIndSpecified": false,
+                                        "MarketingAirline": {
+                                            "SingleVendorIndSpecified": false,
+                                            "Code": "6E"
+                                        },
+                                        "FlightNumber": "154",
+                                        "GovernmentApprovalIndSpecified": false,
+                                        "DepartureAirport": {
+                                            "LocationCode": "BOM",
+                                            "Terminal": "1"
+                                        },
+                                        "ArrivalAirport": {
+                                            "LocationCode": "DEL",
+                                            "Terminal": "1"
+                                        },
+                                        "OperatingAirline": {
+                                            "MarketingIndSpecified": false,
+                                            "Code": "6E"
+                                        },
+                                        "Equipment": [
+                                            {
+                                                "AirEquipType": "320",
+                                                "ChangeofGaugeSpecified": false
+                                            }
+                                        ],
+                                        "TPA_Extensions": {
+                                            "FlightSegmentExtensions": {
+                                                "JourneyDurationInMinutesSpecified": false
+                                            },
+                                            "SendTicketEmail": true
+                                        },
+                                        "DepartureDateTime": "2017-09-29T02:00:00",
+                                        "DepartureDateTimeSpecified": true,
+                                        "ArrivalDateTime": "2017-09-29T04:15:00",
+                                        "ArrivalDateTimeSpecified": true,
+                                        "StopQuantity": "0"
+                                    }
+                                ],
+                                "TotalDurationInMinutes": 135,
+                                "TotalDurationInMinutesSpecified": true
+                            }
+                        ],
+                        "DirectionInd": "OneWay",
+                        "DirectionIndSpecified": true
+                    },
+                    "AirItineraryPricingInfo": {
+                        "RepriceRequiredSpecified": false,
+                        "PTC_FareBreakdowns": [
+                            {
+                                "PassengerTypeQuantity": {
+                                    "Code": "ADT",
+                                    "Quantity": "1"
+                                },
+                                "PassengerFare": [
+                                    {
+                                        "UsageSpecified": false,
+                                        "BaseFare": {
+                                            "Amount": 5200,
+                                            "AmountSpecified": true,
+                                            "RateSpecified": false,
+                                            "DateSpecified": false,
+                                            "OperationSpecified": false,
+                                            "FareAmountTypeSpecified": false
+                                        },
+                                        "Taxes": {
+                                            "Amount": -4820,
+                                            "AmountSpecified": true
+                                        },
+                                        "TotalFare": {
+                                            "Amount": 380,
+                                            "AmountSpecified": true,
+                                            "OperationSpecified": false,
+                                            "FareAmountTypeSpecified": false
+                                        },
+                                        "NegotiatedFareIndSpecified": false,
+                                        "PrivateFareIndSpecified": false
+                                    }
+                                ],
+                                "Endorsements": {
+                                    "NonRefundableIndicator": false,
+                                    "NonRefundableIndicatorSpecified": true,
+                                    "NonEndorsableIndicatorSpecified": false
+                                },
+                                "PricingSourceSpecified": false
+                            }
+                        ],
+                        "PriceRequestInformation": {
+                            "NegotiatedFaresOnlySpecified": false,
+                            "CurrencyCode": "INR",
+                            "PricingSourceSpecified": false,
+                            "RepriceSpecified": false
+                        },
+                        "TPA_Extensions": {
+                            "PricingExtensions": {
+                                "AirItineraryItemIdentifier": "49$6E154_BOM-DEL@29090200"
+                            },
+                            "SendTicketEmail": true
+                        },
+                        "PricingSourceSpecified": false
+                    },
+                    "TicketingInfo": {
+                        "TPA_Extensions": {
+                            "RequiredTravelersInfoExtensions": [
+                                {
+                                    "PassengerTypeCode": "ADT",
+                                    "RequiredInfo": [
+                                        "TitleOfCourtesy"
+                                    ]
+                                }
+                            ],
+                            "SendTicketEmail": true
+                        },
+                        "TicketTimeLimitSpecified": false,
+                        "CancelOnExpiryIndSpecified": false,
+                        "TicketTypeSpecified": false,
+                        "ReverseTktgSegmentsIndSpecified": false,
+                        "BookingChangeTypeSpecified": false,
+                        "OperationSpecified": false
+                    },
+                    "NUC_RateSpecified": false,
+                    "ExchangeRateSpecified": false
+                }
+            ]
+        }
+    ],
+    "EchoToken": "",
+    "TimeStamp": "2017-09-21T06:14:58.7049742Z",
+    "TimeStampSpecified": true,
+    "Target": "Test",
+    "TargetSpecified": true,
+    "Version": 0,
+    "TransactionStatusCodeSpecified": false,
+    "RetransmissionIndicatorSpecified": false
+}
